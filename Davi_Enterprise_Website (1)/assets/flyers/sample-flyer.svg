@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4da3ff"/>
+      <stop offset="1" stop-color="#8b5cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1600" fill="#0b0f1a"/>
+  <rect x="80" y="90" width="1040" height="1420" rx="40" fill="rgba(18,26,43,.85)" stroke="rgba(255,255,255,.12)" stroke-width="6"/>
+  <rect x="140" y="160" width="920" height="220" rx="28" fill="url(#g)" opacity="0.95"/>
+  <text x="600" y="300" font-family="Arial, sans-serif" font-size="84" fill="#ffffff" font-weight="800" text-anchor="middle">EVENT FLYER</text>
+  <text x="600" y="410" font-family="Arial, sans-serif" font-size="38" fill="#eaf0ff" text-anchor="middle">Replace this file with your real flyer image</text>
+  <text x="600" y="560" font-family="Arial, sans-serif" font-size="42" fill="#a9b7d6" text-anchor="middle">Davi Enterprise • Houston, TX</text>
+  <text x="600" y="700" font-family="Arial, sans-serif" font-size="34" fill="#a9b7d6" text-anchor="middle">Tip: upload PNG/JPG to assets/flyers/ and update events.html</text>
+  <rect x="160" y="820" width="880" height="520" rx="28" fill="rgba(255,255,255,.04)" stroke="rgba(255,255,255,.12)" stroke-width="4"/>
+  <text x="600" y="1080" font-family="Arial, sans-serif" font-size="44" fill="#eaf0ff" font-weight="700" text-anchor="middle">Flyer Preview Area</text>
+</svg>

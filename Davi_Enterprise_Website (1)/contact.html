@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Contact Davi Enterprise for bookings, vendors, sponsorships, and buying requests." />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#0b0f1a" />
+  <meta property="og:site_name" content="Davi Enterprise" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:title" content="Contact — Davi Enterprise" />
+  <meta property="og:description" content="Contact Davi Enterprise for bookings, vendors, sponsorships, and buying requests." />
+  <meta property="og:url" content="https://YOUR_SITE_URL/contact.html" />
+  <link rel="canonical" href="https://YOUR_SITE_URL/contact.html" />
+  <title>Contact — Davi Enterprise</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><span class="brand-badge">DE</span><span>Davi Enterprise</span></a>
+      <div class="menu">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="events.html">Events</a>
+        <a href="shop.html">Shop</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <section class="card">
+      <h1>Contact</h1>
+      <p>Bookings, vendor tables, sponsorships, or buying requests — reach out anytime.</p>
+
+      <div class="list" style="margin-top:12px">
+        <div class="item"><div><b>Email</b><p>davienterprise9@gmail.com</p></div></div>
+        <div class="item"><div><b>Instagram / TikTok</b><p>@davi_enterprise</p></div></div>
+        <div class="item"><div><b>Shop Links</b>
+          <p>
+            <a href="https://www.whatnot.com/user/davi_enterprise" target="_blank">Whatnot Store</a><br/>
+            <a href="https://ebay.us/m/PcJAKE" target="_blank">eBay Store</a>
+          </p>
+        </div></div>
+      </div>
+
+      <hr class="sep"/>
+
+      <h2>Message Form (Free)</h2>
+      <p class="note">
+        This form uses Formspree (free tier). Create a free form and replace <b>YOUR_FORM_ID</b> below.
+        If you don’t want a form, you can delete it and keep the contact info above.
+      </p>
+
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label for="name">Name</label>
+        <input class="input" id="name" name="name" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input class="input" id="email" name="email" type="email" placeholder="you@email.com" required />
+
+        <label for="topic">Topic</label>
+        <input class="input" id="topic" name="topic" placeholder="Booking / Vendor / Sponsor / Shop" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="How can I help?" required></textarea>
+
+        <div class="btn-row">
+          <button class="btn primary" type="submit">Send Message</button>
+          <a class="btn" href="index.html">Back Home</a>
+        </div>
+      </form>
+    </section>
+  </div>
+
+  <footer class="footer">© <span id="year"></span> Davi Enterprise</footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>
